@@ -1,0 +1,20 @@
+{
+  "ActionDisplayName": "Login",
+  "Attributes": [
+    {
+      "Name": "Username",
+      "Size": "10",
+      "Type": "TextBox"
+    },
+    {
+      "Name": "Password",
+      "Size": "5",
+      "Type": "SecretTextBox"
+    },
+    {
+      "Name": "Register Number",
+      "Size": "5",
+      "Type": "TextBox"
+    }
+  ]
+}

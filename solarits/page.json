@@ -1,0 +1,35 @@
+{
+  "ActionDisplayName": "Login",
+  "Attributes": [
+    {
+      "Name": "First Name",
+      "Size": "10",
+      "Type": "TextBox"
+    },
+    {
+      "Name": "Last Name",
+      "Size": "10",
+      "Type": "TextBox"
+    },
+    {
+      "Name": "Password",
+      "Size": "10",
+      "Type": "SecretTextBox"
+    }
+    ,
+    {
+      "DropdownValues": [
+        {
+          "DisplayValue": "Guest",
+          "Value": "guest"
+        },
+        {
+          "DisplayValue": "Admin",
+          "Value": "Admin"
+        }
+      ],
+      "Name": "UserType",
+      "Type": "Dropdown"
+    }
+  ]
+}
